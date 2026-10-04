@@ -1,0 +1,16 @@
+{
+  "source_name": "Federal Reserve Board G\u00fcrkaynak\u2013Sack\u2013Wright nominal yield curve",
+  "source_url": "https://www.federalreserve.gov/data/nominal-yield-curve.htm",
+  "extraction_url": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628_1.html",
+  "source_page_last_update": "2026-09-29",
+  "extracted_date_utc": "2026-10-04",
+  "period": "2025-01-01 through 2025-12-31",
+  "columns": "Date and SVENY01 through SVENY30",
+  "units": "percentage points",
+  "compounding": "continuous",
+  "raw_rows": 261,
+  "complete_rows": 249,
+  "missing_rows": 12,
+  "sha256": "bfbb1bcaca6440e2ee503d704f03de49ad87a17c3da16fe0416f78d5e06e7620",
+  "extraction": "Date and SVENY columns selected by header name from the Fed public HTML table. Dates converted from DD-MM-YYYY to ISO. Rows sorted ascending. Missing observations retained as NA. No numeric transformation."
+}
