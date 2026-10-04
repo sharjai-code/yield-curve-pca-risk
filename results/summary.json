@@ -1,0 +1,50 @@
+{
+  "dataset": "gsw_2025.csv",
+  "data_sha256": "bfbb1bcaca6440e2ee503d704f03de49ad87a17c3da16fe0416f78d5e06e7620",
+  "start": "2025-01-02",
+  "end": "2025-12-31",
+  "complete_curves": 249,
+  "daily_changes": 248,
+  "training_changes": 198,
+  "holdout_changes": 50,
+  "training_end": "2025-10-17",
+  "holdout_start": "2025-10-20",
+  "maturities_years": [
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    7.0,
+    10.0,
+    20.0,
+    30.0
+  ],
+  "top3_variance_covariance": 0.9867562871967093,
+  "top3_variance_correlation": 0.9855307991545268,
+  "bootstrap_95_interval": [
+    0.9843933234799861,
+    0.992340362969403
+  ],
+  "bootstrap_repetitions": 500,
+  "block_length": 10,
+  "seed": 42,
+  "rolling_window": 63,
+  "portfolio_value_usd": 3858203.0439841505,
+  "parallel_dv01_usd": 2857.400820903247,
+  "factor_sensitivity_usd_per_score_unit": [
+    995.4464871588939,
+    629.6947442313626,
+    272.81277348348715
+  ],
+  "pnl_diagnostics": {
+    "factor_vs_full_linear_rmse_usd": 116.49910240710082,
+    "full_linear_vs_repricing_rmse_usd": 34.41679075174263
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}
